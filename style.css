@@ -133,5 +133,46 @@ label {
   border-radius: 5px;
 }
 
-@media screen {
+.display-second .right-side {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
 }
+
+/* .right-side {
+  display: none;
+} */
+
+.display-second .right-side {
+  display: none;
+}
+
+.right-side p {
+  font-size: larger;
+  opacity: 0.5;
+}
+
+.right-side h2 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.form-button .button {
+  color: white;
+  width: 25rem;
+  padding: 1rem;
+  background-color: hsl(278, 68%, 11%);
+  border: none;
+  border-radius: 5px;
+}
+
+.button input:focus .display-one .right-side {
+  display: none;
+}
+
+/* #name:focus {
+  display: none;
+} */
